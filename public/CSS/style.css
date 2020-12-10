@@ -1,0 +1,170 @@
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Maitree', serif;
+font-family: 'Staatliches', cursive; */
+body {
+    margin:0;
+}
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 260px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* FIN NAVIGATION */
+/* TITRAGES */
+h1 {
+    font-family: 'Cairo', sans-serif;
+    margin: 142px 0 36px 190px;
+}
+h2 {
+    font-family: 'Staatliches', cursive;
+    margin: 0 0 0 324px;
+}
+h3 {
+    font-family: 'Staatliches', cursive;
+}
+p {
+    font-family:'Maitree', serif;
+
+}
+a {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* FIN TITRAGES */
+/* PRESENTATION */
+.presentation p {
+    margin: 0 974px 60px 190px;
+}
+
+.presentation img {
+    width: 26%;
+    padding: 0px 246px 0 0;
+    margin: -212px 120px 0 0;
+    float: right;
+}
+/* FIN PRESENTATION */
+
+/* PRESENTATION IMG ORIGIN */
+#beer {
+    padding:0px 0px 60px 197px;
+}
+/* FIN PRESENTATION IMG ORIGIN */
+/* PRESENTATION ORIGIN */
+
+div.one {
+    float: right;
+    padding: 10px 656px 0px 0px;
+}
+img#one {
+    padding: 19px 0 0px 396px;
+    width: 15%;
+}
+div.two {
+    float: right;
+    padding: 10px 616px 30px 0;
+}
+img#two {
+    padding: 0px 0px 0px 396px;
+    width: 15%;
+}
+div.three {
+    float: right;
+    padding: 16px 772px 0px 0;
+}
+img#three {
+    margin: 24px 0 0px 322px;
+    width: 15%;
+}
+div.four {
+    float: right;
+    padding: 0px 804px 20px 0;
+}
+img#four {
+    margin: 0px 0 0px 322px;
+    width: 15%;
+
+}
+
+/* FIN PRESENTATION ORIGIN */
+
+/* LINE STYLE */
+
+.ligne {
+    margin-top: 200px;
+    margin-bottom: 28px;
+    width: 36%;
+}
+
+.ligne1 {
+    margin-top: 26px;
+    width: 36%;
+}
+.ligne2 {
+    margin: 26px 0px 23px 324px;
+    width: 44%;
+}
+.ligne3 {
+    margin: 0px 0px 0 322px;
+    width: 44.4%;
+}
+.ligne4 {
+    margin: 20px 0px 23px 322px;
+    width: 44.4%;
+}
+.ligne5 {
+    width: 36%;
+    margin: 20px 0 6px 324px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+    margin: 0px 0 0 -76px;
+}
+/* FIN LINE STYLE  */
+/* FOOTER */
+footer{
+    text-align: center;
+}
+footer a {
+    color: black;
+}
+/* FIN FOOTER */
+/* FIN PAGE ACCUEIL */
+
+
+/* PAGE CONTACT */
+h1.for_us{
+    margin: 70px 0 0 0;
+}
+section.contact {
+    float: right;
+    margin: 280px 260px 0 0;
+}
+.more_help {
+    float: left;
+    margin: 380px 0 0 60px;
+}
+
+/* FIN PAGE CONTACT */

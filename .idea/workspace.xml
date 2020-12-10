@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a599ad55-3ca7-4b20-bbb0-a8151692aa41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/frontController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/frontmentionlegaleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Front/home.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Front/mention_legale.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +139,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\src\Controller" />
       <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\templates\Front" />
     </key>
   </component>
@@ -154,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607608647694</updated>
-      <workItem from="1607608649639" duration="743000" />
+      <workItem from="1607608649639" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1607608734085</created>
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607608734085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.2">
+      <created>1607609489354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609489354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
 </project>

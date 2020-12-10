@@ -1,3 +1,8 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+app_Front_home:
+  path: /Front/home
+  controller: App\Controller\frontController::base
+
+app_Front_mention_legale :
+  path: /Front/mention_legale
+  controller: App\Controller\frontmentionController::mention
+

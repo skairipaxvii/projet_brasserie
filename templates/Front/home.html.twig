@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Maitree:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    {# les fichiers css sont stocker dans public "public/css/style.css" #}
+    <link rel="stylesheet" href="{{ asset ('css/style.css') }}">
+    <title>Brasserie La Baleine</title>
+</head>
+<!-- NAVIGATION -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="">Boutique</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- FIN NAVIGATION -->
+<body>
+<!-- PRESENTATION  -->
+<h1>Brasserie La Baleine</h1>
+<div class="presentation">
+    <p>La Brasserie La Baleine est une micro-brasserie proposant des bières artisanales brassées de façon traditionnelle (à la main), ce qui permet de vous offrir des produits authentiques, vivants et naturels.
+        <br> Les bières qui y sont fabriquées ont ce goût caractéristique des pur malt.
+        <br> Les houblons, les levures, les plantes aromatiques et les épices sont sélectionnés afin d’obtenir des produits de qualité et des recettes uniques.
+    </p>
+    <img src="{{ asset ('image/bruno.jpg') }}" alt="Bruno With Attitude" class="responsive">
+</div>
+<hr class="ligne">
+<!-- FIN PRESENTATION -->
+<!-- PRESENTATION IMG ORIGIN -->
+<div id="beer">
+    <img src="{{ asset ('image/bieres.png') }}" alt="" class="responsive">
+</div>
+<!-- FIN PRESENTATION ORIGIN -->
+<h2>Nos Premiers Brassins</h2>
+<hr class="ligne5">
+<!-- PRESENTATION ORIGIN -->
+<section>
+    <div class="one">
+        <h3 >La Lucite</h3>
+        <p>Bière blonde travaillée avec des malts blonds et caramels, des plantes aromatiques.<br>
+            Note de citron / anis.<br>
+            Idée d'association : viande blanche, grillades, crustacés, charcuterie.<br>
+            4,2 % vol alc.</p>
+    </div>
+    <img id="one" src="{{ asset ('image/lucite.jpg') }}" alt="first" class="responsive">
+    <hr class="ligne2">
+    <div class="two">
+        <h3>La Picaro</h3>
+        <p>Bière blanche aux 4 malts de différentes céréales ( malt de seigle, orge, blé et épeautre).<br>
+            Note de pomme / pamplemousse.<br>
+            Idée d'association : foie gras, fromages pâte dur.<br>
+            5% vol alc.
+        </p>
+    </div>
+    <img id="two" src="{{ asset ('image/picaro.jpg') }}" alt="second" class="responsive">
+    <hr class="ligne3">
+    <div class="three">
+        <h3>La Gitane</h3>
+        <p>Bière ambrée fumée à la tourbe.<br>
+            Idée d'association : fromage fumé ou non, poisson cru, charcuterie.<br>
+            5% vol alc.
+        </p>
+    </div>
+    <img id="three" src="{{ asset ('image/gitane.jpg') }}" alt="third" class="responsive">
+    <hr class="ligne4">
+    <div class="four">
+        <h3>La Phare</h3>
+        <p> Bière brune aux malts torréfiés, café et chocolat, épices.<br>
+            Idée d'association : fruit sec, dessert, plat en sauce, pot au feu.<br>
+            5% vol alc.
+        </p>
+    </div>
+    <img id="four" src="{{ asset ('image/la_phare.jpg') }}" alt="fourth" class="responsive">
+</section>
+<!-- FIN PRESENTATION ORIGIN  -->
+</body>
+<footer>
+    <p>L'abus d'alcool est dangereux pour la santé, appréciez et consommez avec modération.</p>
+    <a href= "">Mentions Légale</a>
+</footer>
+</html>

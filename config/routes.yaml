@@ -1,8 +1,7 @@
-app_Front_home:
+home:
   path: /Front/home
-  controller: App\Controller\frontController::base
+  controller: App\Controller\HomeController::home
 
-app_Front_mention_legale :
-  path: /Front/mention_legale
-  controller: App\Controller\frontmentionController::mention
-
+mlegale:
+    path: /Front/mention_legale
+    controller: App\Controller\MentionLegaleController::mlegale

@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Maitree:wght@300&family=Staatliches&display=swap" rel="stylesheet">
-    {# les fichiers css sont stocker dans public "public/css/style.css" #}
-    <link rel="stylesheet" href="{{ asset ('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset ('CSS/style.css') }}">
     <title>Brasserie La Baleine</title>
 </head>
 <!-- NAVIGATION -->
 <header>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
+            <li><a href="{{ path('home') }}">Accueil</a></li>
             <li><a href="">Boutique</a></li>
             <li><a href="">Contact</a></li>
         </ul>
@@ -81,6 +80,6 @@
 </body>
 <footer>
     <p>L'abus d'alcool est dangereux pour la santé, appréciez et consommez avec modération.</p>
-    <a href= "">Mentions Légale</a>
+    <a href= "{{ path('mlegale') }}">Mentions Légale</a>
 </footer>
 </html>

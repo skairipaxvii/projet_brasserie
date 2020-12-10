@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a599ad55-3ca7-4b20-bbb0-a8151692aa41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MentionLegaleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/frontController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/frontmentionlegaleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Front/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Front/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Front/mention_legale.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Front/mention_legale.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,11 +132,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lT6HWM6wEI8C8TyXzEvZDMlK5U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -139,6 +149,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\public\image" />
+      <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\public" />
       <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\src\Controller" />
       <recent name="D:\Programmes\wamp64\www\Brasserie_La_Baleine\templates\Front" />
     </key>
@@ -151,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607608647694</updated>
-      <workItem from="1607608649639" duration="1047000" />
+      <workItem from="1607608649639" duration="6062000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1607608734085</created>
@@ -167,15 +179,24 @@
       <option name="project" value="LOCAL" />
       <updated>1607609489354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.3">
+      <created>1607609771017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609771017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
+    <MESSAGE value="1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3" />
   </component>
 </project>

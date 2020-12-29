@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Maitree:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasserie La Baleine</title>
+</head>
+<!-- NAVIGATION -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{ path('home') }}">Accueil</a></li>
+            <li><a href="{{ path('shop') }}">Boutique</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- FIN NAVIGATION -->
+<body>
+    <div>
+        <h1>Nos bières</h1>
+    </div>
+    <section>
+        <div class="">
+            <img id="" src="{{ asset ('image/lucite.jpg') }}" alt="first" class="responsive">
+            <a href=""><h3 >La Lucite</h3></a>
+            <p>4,2 % vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div class="">
+            <img id="" src="{{ asset ('image/picaro.jpg') }}" alt="second" class="responsive">
+            <a href=""><h3>La Picaro</h3></a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div class="">
+            <img id="" src="{{ asset ('image/gitane.jpg') }}" alt="third" class="responsive">
+            <a href=""><h3>La Gitane</h3></a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div class="">
+            <img id="" src="{{ asset ('image/la_phare.jpg') }}" alt="fourth" class="responsive">
+            <a href=""><h3>La Phare</h3></a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div>
+            <img src="{{ asset ('image/arrache_coeur.jpg') }}" alt="" class="responsive">
+            <a href=""><h3>L'Arrache Coeur</h3></a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div>
+            <img src="{{ asset ('image/celebration_love.jpg') }}" alt="" class="responsive">
+            <a href=""><h3>Fête l'Amour</h3></a>
+            <p>4,2% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div>
+            <img src="{{ asset ('image/volute.jpg') }}" alt="" class="responsive">
+            <a href=""><h3>Volute</h3></a>
+            <p>5% de vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div>
+            <img src="{{ asset ('image/cru_1910.jpg') }}" alt="" class="responsive">
+            <a href=""><h3>Cru 1910</h3></a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+        <hr class="">
+        <div>
+            <img src="{{ asset ('image/cru_1924.jpg') }}" alt="" class="responsive">
+            <a href="">Cru 1924</a>
+            <p>5% vol alc.</p>
+            <button>Ajouter Au Panier</button>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>L'abus d'alcool est dangereux pour la santé, appréciez et consommez avec modération.</p>
+    <a href= "{{ path('mlegale') }}">Mentions Légale</a>
+</footer>
+</html>
